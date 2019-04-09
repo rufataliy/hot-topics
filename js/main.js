@@ -30,7 +30,7 @@ button.forEach((e)=>{
       container.innerHTML = "<h2>Fetch some data for me ... </h2>"
     }
       else {
-      handleFetch(e.target.href);
+      handleFetch(e.target.href,{mode:"no-cors"});
     }
   })
 })
